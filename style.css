@@ -1,0 +1,46 @@
+/* Styles for the navigation background */
+.nav-background {
+    background-image: url("navbar_img.png");
+    background-size: cover;
+    min-height: 100%;
+  }
+  
+  /* Styles for the contact section header */
+  .row.py-4.align-items-center.bg-dark.text-warning.mb-1.text-uppercase.text-center h1 {
+    color: #ffc107; /* Text color */
+  }
+  
+  /* Styles for the contact form */
+  .container.mt-5 {
+    margin-top: 5rem;
+  }
+  
+  /* Styles for the social media buttons */
+  .btn.btn-primary.btn-floating.m-1,
+  .btn.text-white.btn-floating.m-1 {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  /* Styles for the footer */
+  footer.bg-body-tertiary.text-center {
+    background-color: #b97a56; /* Footer background color */
+    color: #fff; /* Footer text color */
+    padding: 1rem 0;
+  }
+  
+  /* Styles for the footer card */
+  footer .card {
+    background-color: transparent; /* Footer card background color */
+  }
+  
+  /* Styles for the copyright section in the footer */
+  .text-center.p-3[style="background-color: #b97a56"] {
+    background-color: #b97a56; /* Copyright background color */
+    color: #fff; /* Copyright text color */
+  }
+  
